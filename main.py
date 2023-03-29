@@ -5,7 +5,9 @@ import time
 # Function to do countdown
 def countdown(length):
   length = int(length)
-  print(length)
+  # Get minutes and seconds
+  mins, secs = divmod(length, 60)
+  print(mins, secs)
 
 # Get user input on length of timer
 length = input('How many seconds do you want to count down from? ')
