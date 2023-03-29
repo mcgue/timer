@@ -2,11 +2,15 @@
 
 import time
 
-# Get user input on how long time last
+# Function to do countdown
+def countdown(length):
+  length = int(length)
+  print(length)
 
-length = float(input('How long do you want the timer for? '))
+# Get user input on length of timer
+length = input('How many seconds do you want to count down from? ')
+countdown(length)
 
-# Verify is a number
 
 
-print(length)
+
