@@ -8,12 +8,14 @@ def countdown(length):
   length = int(length)
   # Loop to countdown to 0
   while length:
-    # Get minutes and seconds
-    mins, secs = divmod(length, 60)
-    timer = f'{mins}:{secs}'
-    print(timer)
+    # print countdown
+    print(length, end=" ")
+    # Delay 1 second
+    time.sleep(1)
+    # Take off a second
     length -= 1
-  print ('Zero')
+
+  print ('Done!')
 
 # Get user input on length of timer
 length = input('How many seconds do you want to count down from? ')
