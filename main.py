@@ -1,5 +1,7 @@
 # Countdown timer
+# Finished
 
+# Import necessary module
 import time
 
 # Function to do countdown
@@ -15,10 +17,13 @@ def countdown(length):
     # Take off a second
     length -= 1
 
+  # Print ending message
   print ('Done!')
 
 # Get user input on length of timer
 length = input('How many seconds do you want to count down from? ')
+
+# Run Countdown timer
 countdown(length)
 
 
