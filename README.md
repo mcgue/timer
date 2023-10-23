@@ -1,3 +1,3 @@
-### Countdown time
-#### Status: Completed
-#### Future: Put on web
+# time
+## Countdown timer
+### Status: Completed, put on web?
