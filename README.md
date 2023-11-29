@@ -1,3 +1,3 @@
 # timer
-## Countdown timer
-### Status: Completed, put on web?
+Countdown timer<br>
+Status: completed
